@@ -64,8 +64,6 @@
                 <i class="fas fa-times"></i>
             </div>
         </div> -->
-
-
         <script>
 
             //toast funtion
@@ -82,7 +80,7 @@
                     const autoRemoveId = setTimeout(function() {
                     main.removeChild(toast);
                 },duration + 1000);
-/* remove when click */
+            /* remove when click */
                     toast.onclick = function(e) {
                         if (e.target.closest('.toast__close')) {
                             main.removeChild(toast);
@@ -124,7 +122,7 @@
                 type: 'success',
                 duration: 3000
             });
-
+            
             }
             function showErrorToast () {
                 toast({
@@ -133,8 +131,8 @@
                 type: 'error',
                 duration: 3000
             });
-
+            
             }
-        </script>
+            </script>
     </body>
 </html>
